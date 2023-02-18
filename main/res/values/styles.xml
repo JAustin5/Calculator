@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button_Style" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">@dimen/button_margin</item>
+    </style>
+
+    <style name="Button_Style.Port">
+        <item name="android:textSize">@dimen/default_portrait_text_size</item>
+    </style>
+
+    <style name="Button_Style.Land">
+        <item name="android:textSize">@dimen/landscape_text_size</item>
+    </style>
+
+
+    <style name="Text_Field">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/text_field_dis</item>
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="Text_Field.Port">
+        <item name="android:textSize">@dimen/text_field</item>
+    </style>
+
+    <style name="Text_Field.Land">
+        <item name="android:textSize">@dimen/text_field</item>
+    </style>
+
+</resources>

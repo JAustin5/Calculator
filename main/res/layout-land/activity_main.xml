@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/displayArea"
+        style="@style/Text_Field.Land" />
+
+    <TableRow>
+        <Button
+            android:id="@+id/num7Button"
+            style="@style/Button_Style.Land"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/num8Button"
+            style="@style/Button_Style.Land"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/num9Button"
+            style="@style/Button_Style.Land"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/plusButton"
+            style="@style/Button_Style.Land"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/clearButton"
+            style="@style/Button_Style.Land"
+            android:text="@string/c" />
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/num4Button"
+            style="@style/Button_Style.Land"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/num5Button"
+            style="@style/Button_Style.Land"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/num6Button"
+            style="@style/Button_Style.Land"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/minusButton"
+            style="@style/Button_Style.Land"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/ceButton"
+            style="@style/Button_Style.Land"
+            android:text="ce" />
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/num1Button"
+            style="@style/Button_Style.Land"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/num2Button"
+            style="@style/Button_Style.Land"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/num3Button"
+            style="@style/Button_Style.Land"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/multiButton"
+            style="@style/Button_Style.Land"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/divisionButton"
+            style="@style/Button_Style.Land"
+            android:text="/" />
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/num0Button"
+            style="@style/Button_Style.Land"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/dotButton"
+            style="@style/Button_Style.Land"
+            android:text="." />
+
+        <Button
+            android:id="@+id/plusButtonMinus"
+            style="@style/Button_Style.Land"
+            android:text="+/-" />
+
+        <Button
+            android:id="@+id/equalsButton"
+            style="@style/Button_Style.Land"
+            android:layout_weight="1"
+            android:text="=" />
+    </TableRow>
+</TableLayout>
